@@ -1,0 +1,8 @@
+
+Technologies and tools :
+
+Jupyter notebook
+Python 3 
+Excel
+MLB data set
+Anaconda navigator
