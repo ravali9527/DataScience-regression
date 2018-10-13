@@ -1,1 +1,23 @@
 
+Data set used : MLB data set 
+
+Feature engineering :
+
+1)From the given data set derived how many times each team participated in MLB as team 1 and the count is returned to feature engineering.csv
+
+2)From the given data set derived the number of points scored by each team and sorted them in ascending order, computed their mean and standard deviation.From this we can deduce which is the team with highest number of points
+
+Model:
+
+Used Linear regression model to predict the score using other columns as feature
+
+Steps:
+Read the data into pandas
+Converting the datatypes of the column using encoding scheme
+Checking the correlation between various columns
+Dropping data column
+Splitting the data set into training and testing sets
+Model fitting using linear regression
+Score prediction
+Returning the predictions to pred1.csv in data folder.
+
